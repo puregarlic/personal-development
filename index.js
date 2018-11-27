@@ -9,6 +9,7 @@ import { Content, Section, Footer } from './components/content'
 import { Wrapper } from './components/wrapper'
 import { PosedHeader } from './components/header'
 import { Name, Heading, Paragraph, Highlight } from './components/text'
+import { ListItem, List } from './components/lists'
 
 class Website extends Component {
   constructor(props) {
@@ -25,7 +26,6 @@ class Website extends Component {
       })
     }, 750)
   }
-
   render() {
     const { nameVisible } = this.state
 
@@ -37,12 +37,24 @@ class Website extends Component {
         </PosedHeader>
         <Content>
           <Section>
-            <Heading>All About Me</Heading>
-            <Paragraph>
-              European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish tailor
-              Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded killifish
-              giant sea bass eulachon.
-            </Paragraph>
+            <Heading>My Background</Heading>
+            <List>
+              <ListItem>
+                European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
+                tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
+                killifish giant sea bass eulachon.
+              </ListItem>
+              <ListItem>
+                European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
+                tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
+                killifish giant sea bass eulachon.
+              </ListItem>
+              <ListItem>
+                European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
+                tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
+                killifish giant sea bass eulachon.
+              </ListItem>
+            </List>
             <Paragraph>
               Kingfish hatchetfish gar, regal whiptail catfish bowfin sea bass smelt loach minnow
               South American darter whiting galjoen fish. Sweeper stonefish sixgill shark pikeperch
@@ -55,6 +67,46 @@ class Website extends Component {
               barracuda catla barracudina platy gulper eel. Snailfish daggertooth pike conger tui
               chub sockeye salmon dorado surgeonfish: buri; walleye pollock, tubeshoulder cuskfish.
             </Paragraph>
+          </Section>
+          <Section>
+            <Heading>Something something</Heading>
+            <List>
+              <ListItem>
+                European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
+                tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
+                killifish giant sea bass eulachon.
+              </ListItem>
+              <ListItem>
+                European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
+                tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
+                killifish giant sea bass eulachon.
+              </ListItem>
+              <ListItem>
+                European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
+                tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
+                killifish giant sea bass eulachon.
+              </ListItem>
+            </List>
+          </Section>
+          <Section>
+            <Heading>Something something</Heading>
+            <List>
+              <ListItem>
+                European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
+                tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
+                killifish giant sea bass eulachon.
+              </ListItem>
+              <ListItem>
+                European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
+                tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
+                killifish giant sea bass eulachon.
+              </ListItem>
+              <ListItem>
+                European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
+                tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
+                killifish giant sea bass eulachon.
+              </ListItem>
+            </List>
           </Section>
           {/* <Section>
             <Footer>
