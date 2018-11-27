@@ -1,0 +1,24 @@
+{
+  "name": "personal-development",
+  "version": "1.0.0",
+  "description": "React website for BA311 at Oregon State University",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "now-build": "parcel build index.html -o dist"
+  },
+  "repository": "git@github.com:puregarlic/personal-development",
+  "author": "Graham Barber <grahammbarber@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "babel-plugin-styled-components": "^1.9.0",
+    "parcel": "^1.10.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-pose": "^4.0.2",
+    "styled-components": "^4.1.1"
+  }
+}

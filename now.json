@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "ba-311-personal-development",
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
+  "alias": ["grahambarber.now.sh"]
+}
