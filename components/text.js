@@ -31,9 +31,12 @@ export const Heading = styled.h1`
 export const SubHeading = styled.h2`
   font-size: 2em;
   font-family: Inter UI, sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 
   @media (max-width: 320px) {
     font-size: 1.5em;
+    margin-top: 1em;
   }
 `
 
