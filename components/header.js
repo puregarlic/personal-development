@@ -13,8 +13,8 @@ export const Header = styled.div`
   font-weight: 600;
   font-family: Inter UI, sans-serif;
 
-  @media (max-width: 360px) {
-    font-size: 4em;
+  @media (max-width: 415px) {
+    font-size: 2em;
     hyphens: auto;
     padding-left: 8px;
   }

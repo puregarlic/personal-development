@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   /* background-image: linear-gradient(to left, #434343 0%, black 100%); */
   padding: 2em;
 
-  @media (max-width: 360px) {
-    padding: 1em;
+  @media (max-width: 415px) {
+    padding: 8px;
   }
 `

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const List = styled.ul`
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
 `
 
 export const ListItem = styled.li`

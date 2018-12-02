@@ -9,8 +9,8 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (max-width: 360px) {
-    padding: 1em;
+  @media (max-width: 415px) {
+    padding: 1rem;
   }
 `
 
