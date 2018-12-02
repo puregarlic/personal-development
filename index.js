@@ -60,7 +60,7 @@ class Website extends Component {
                     consciously aware of the reasoning behind it.
                   </Highlight>
                 </PosedSubSection>
-                <PosedSubSection title="Attention to Detail" initialPose="exit">
+                <PosedSubSection title="Trained for Attention to Detail" initialPose="exit">
                   The part of Ohio where I come from was academically rigorous, so I was pushed from
                   the beginning by my parents, my teachers, and my peers to perform high-quality
                   work. When I moved to Oregon, I found out that the standards weren't as high, but
@@ -71,9 +71,9 @@ class Website extends Component {
                 </PosedSubSection>
                 <PosedSubSection title='Former "Idea Guy"' initialPose="exit">
                   In high school, I was well known for coming up with bold, creative ideas for video
-                  games and software. Early on, I swore that I would never program, because there
-                  would always be someone else who would be willing and capable of doing that for
-                  me. By the end of high school, I wisened up, and figured out that{' '}
+                  games and software. Early on, I swore that I would never learn to program, because
+                  there would always be someone else who would be willing and capable of doing so
+                  for me. By the end of high school, I wisened up, and figured out that{' '}
                   <Highlight>
                     if anybody is going to bring my ideas to life, it's going to have to be myself.
                   </Highlight>
