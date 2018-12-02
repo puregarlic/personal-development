@@ -8,6 +8,10 @@ export const Name = styled.span`
   @media (max-width: 415px) {
     font-size: 2.5em;
   }
+
+  @media (max-width: 320px) {
+    font-size: 2em;
+  }
 `
 
 export const Heading = styled.h1`
@@ -18,11 +22,19 @@ export const Heading = styled.h1`
   @media (max-width: 415px) {
     font-size: 3em;
   }
+
+  @media (max-width: 320px) {
+    font-size: 2em;
+  }
 `
 
 export const SubHeading = styled.h2`
   font-size: 2em;
   font-family: Inter UI, sans-serif;
+
+  @media (max-width: 320px) {
+    font-size: 1.5em;
+  }
 `
 
 export const Paragraph = styled.p`
@@ -30,15 +42,11 @@ export const Paragraph = styled.p`
   font-family: Inter UI, sans-serif;
 
   @media (max-width: 415px) {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 `
 
 export const Highlight = styled.span`
-  /* background-clip: text;
-  -webkit-background-clip: text; */
-  /* color: transparent; */
-  /* background-image: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%); */
   color: #8d0b93;
   font-weight: 600;
 `

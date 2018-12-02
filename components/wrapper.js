@@ -6,9 +6,9 @@ export const Wrapper = styled.div`
   background-image: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
   /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); */
   /* background-image: linear-gradient(to left, #434343 0%, black 100%); */
-  padding: 2em;
+  padding: 0 2em 2em 2em;
 
   @media (max-width: 415px) {
-    padding: 8px;
+    padding: 0 8px 8px 8px;
   }
 `

@@ -9,9 +9,8 @@ import jpeg from './assets/me2.jpeg'
 import { Image } from './components/image'
 import { Content, Section, Footer, PosedSubSection, SubSectionGroup } from './components/content'
 import { Wrapper } from './components/wrapper'
-import { PosedHeader } from './components/header'
+import { PosedHeader, Arrows } from './components/header'
 import { Name, Heading, Paragraph, Highlight } from './components/text'
-import { ListItem, List } from './components/lists'
 
 class Website extends Component {
   constructor(props) {
@@ -37,6 +36,7 @@ class Website extends Component {
         <PosedHeader initialPose="exit" pose="enter">
           <Image src={jpeg} />
           Hey, my name is <Name>Graham Barber.</Name>
+          <Arrows />
         </PosedHeader>
         <Content>
           <Section title="My Background">

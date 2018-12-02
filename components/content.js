@@ -51,7 +51,8 @@ export const SubSectionGroup = posed.div({
 
 export const Footer = styled.div`
   font-size: 1em;
-  margin-top: 5em;
+  /* margin-top: 5rem; */
+  margin: 1em;
   font-family: Inter UI, sans-serif;
   text-align: center;
   display: block;
