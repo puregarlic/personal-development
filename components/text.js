@@ -6,7 +6,7 @@ export const Name = styled.span`
   text-decoration: underline;
 
   @media (max-width: 415px) {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 `
 
@@ -18,6 +18,11 @@ export const Heading = styled.h1`
   @media (max-width: 415px) {
     font-size: 3em;
   }
+`
+
+export const SubHeading = styled.h2`
+  font-size: 2em;
+  font-family: Inter UI, sans-serif;
 `
 
 export const Paragraph = styled.p`

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Header = styled.div`
   min-height: 78vh;
-  padding: 0.5em;
+  padding: 0.5em 0;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
@@ -21,6 +21,6 @@ export const Header = styled.div`
 `
 
 export const PosedHeader = posed(Header)({
-  enter: { opacity: 1 },
+  enter: { opacity: 1, delay: 750 },
   exit: { opacity: 0 }
 })
