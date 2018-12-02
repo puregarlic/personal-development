@@ -28,7 +28,7 @@ class Website extends Component {
       this.setState({
         chevronVisible: !this.state.chevronVisible
       })
-    }, 1000)
+    }, 1100)
   }
 
   reveal(section) {
