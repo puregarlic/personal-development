@@ -1201,6 +1201,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+clean-react-props@^0.2.9:
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/clean-react-props/-/clean-react-props-0.2.11.tgz#59e967d871cc9c2dcc3e4cbe6bbeaaba9ccea6c7"
+  integrity sha512-OajTkXRs4hp9v8FAYq5jjGER8JS4WPawJY5fzxMrM5mThTx0ZypRIY3Wknu/JcOYOH59rJWI7m9KeT2sD3pvBQ==
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -2844,6 +2849,11 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+  integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
+
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
@@ -4228,6 +4238,11 @@ react-dom@^16.6.3:
     prop-types "^15.6.2"
     scheduler "^0.11.2"
 
+react-feather@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/react-feather/-/react-feather-1.1.4.tgz#d0143da95f9d52843cf13a553091573a7c617897"
+  integrity sha512-Odke3WUl00+a2scGQKlep4m+qDESl/x+PsTRB3v6fAV/2dteF4EaRjqhX8h7HM3mU3V3v0xGTv8Z5S26bpQ5PQ==
+
 react-is@^16.6.0:
   version "16.6.3"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.3.tgz#d2d7462fcfcbe6ec0da56ad69047e47e56e7eac0"
@@ -4242,6 +4257,15 @@ react-pose@^4.0.2:
     hey-listen "^1.0.5"
     popmotion-pose "^3.4.0"
     tslib "^1.9.1"
+
+react-scroll-trigger@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/react-scroll-trigger/-/react-scroll-trigger-0.5.2.tgz#ff6ac50bf8ec940dc897fa9748b34c481ffd29dd"
+  integrity sha512-OYpWfl2U+i6Fw0JgxseFnMJ8xce0Ogo9TTP63v1zB/NnJ5XXCDUpcPZ2G9oupJqf44RxYEe6dsw7gvoFS3YTyw==
+  dependencies:
+    clean-react-props "^0.2.9"
+    lodash.throttle "^4.1.1"
+    prop-types "^15.6.2"
 
 react@^16.6.3:
   version "16.6.3"
