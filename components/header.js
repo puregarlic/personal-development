@@ -1,11 +1,11 @@
 import posed from 'react-pose'
 import styled from 'styled-components'
 import React from 'react'
-import { ChevronsDown } from 'react-feather'
+import { ChevronDown } from 'react-feather'
 
 export const Header = styled.div`
   min-height: 100vh;
-  padding-bottom: 0.5em;
+  padding: 0 0.5em 0 0.5em;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
@@ -30,12 +30,15 @@ export const ArrowsContainer = styled.div`
   width: 100%;
 `
 
-export const Arrows = () => (
-  <ArrowsContainer>
-    <ChevronsDown size={48} />
-    <ChevronsDown size={48} />
-    <ChevronsDown size={48} />
-  </ArrowsContainer>
+export const Chevron = posed(ArrowsContainer)({
+  enter: { opacity: 1 },
+  exit: { opacity: 0 }
+})
+
+export const Arrow = ({ visible }) => (
+  <Chevron pose={visible ? 'enter' : 'exit'}>
+    <ChevronDown size={48} />
+  </Chevron>
 )
 
 export const PosedHeader = posed(Header)({

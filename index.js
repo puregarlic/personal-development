@@ -9,7 +9,7 @@ import jpeg from './assets/me2.jpeg'
 import { Image } from './components/image'
 import { Content, Section, Footer, PosedSubSection, SubSectionGroup } from './components/content'
 import { Wrapper } from './components/wrapper'
-import { PosedHeader, Arrows } from './components/header'
+import { PosedHeader, Arrow } from './components/header'
 import { Name, Heading, Paragraph, Highlight } from './components/text'
 
 class Website extends Component {
@@ -18,8 +18,17 @@ class Website extends Component {
     this.state = {
       one: false,
       two: false,
-      three: false
+      three: false,
+      chevronVisible: false
     }
+  }
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({
+        chevronVisible: !this.state.chevronVisible
+      })
+    }, 1000)
   }
 
   reveal(section) {
@@ -29,14 +38,14 @@ class Website extends Component {
   }
 
   render() {
-    const { one, two, three } = this.state
+    const { one, two, three, chevronVisible } = this.state
 
     return (
       <Wrapper>
         <PosedHeader initialPose="exit" pose="enter">
           <Image src={jpeg} />
           Hey, my name is <Name>Graham Barber.</Name>
-          <Arrows />
+          <Arrow visible={chevronVisible} />
         </PosedHeader>
         <Content>
           <Section title="My Background">
