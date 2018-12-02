@@ -51,20 +51,32 @@ class Website extends Component {
           <Section title="My Background">
             <ScrollTrigger onEnter={() => this.reveal('one')}>
               <SubSectionGroup pose={one ? 'enter' : ''}>
-                <PosedSubSection title="Some other thing" initialPose="exit">
-                  European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
-                  tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
-                  killifish giant sea bass eulachon.
+                <PosedSubSection title="Raised with Self-Awareness" initialPose="exit">
+                  Raised by a civil engineer and a librarian, I've been trained from an early age to
+                  seek my own answers and constantly evaluate how I appear to others, how my actions
+                  will affect my future, and how my actions might affect those around me.{' '}
+                  <Highlight>
+                    It's never good enough for me to simply take an action — I need to be
+                    consciously aware of the reasoning behind it.
+                  </Highlight>
                 </PosedSubSection>
-                <PosedSubSection title="Some other thing" initialPose="exit">
-                  European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
-                  tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
-                  killifish giant sea bass eulachon.
+                <PosedSubSection title="Attention to Detail" initialPose="exit">
+                  The part of Ohio where I come from was academically rigorous, so I was pushed from
+                  the beginning by my parents, my teachers, and my peers to perform high-quality
+                  work. When I moved to Oregon, I found out that the standards weren't as high, but
+                  I discovered{' '}
+                  <Highlight>
+                    I can differentiate myself from others by always giving my best effort.
+                  </Highlight>
                 </PosedSubSection>
-                <PosedSubSection title="Some other thing" initialPose="exit">
-                  European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
-                  tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
-                  killifish giant sea bass eulachon.
+                <PosedSubSection title='Former "Idea Guy"' initialPose="exit">
+                  In high school, I was well known for coming up with bold, creative ideas for video
+                  games and software. Early on, I swore that I would never program, because there
+                  would always be someone else who would be willing and capable of doing that for
+                  me. By the end of high school, I wisened up, and figured out that{' '}
+                  <Highlight>
+                    if anybody is going to bring my ideas to life, it's going to have to be myself.
+                  </Highlight>
                 </PosedSubSection>
               </SubSectionGroup>
             </ScrollTrigger>
