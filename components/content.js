@@ -14,7 +14,7 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (max-width: 415px) {
+  @media (max-width: 550px) {
     padding: 1rem;
   }
 `

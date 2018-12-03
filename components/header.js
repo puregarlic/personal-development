@@ -15,10 +15,20 @@ export const Header = styled.div`
   font-weight: 600;
   font-family: Inter UI, sans-serif;
 
-  @media (max-width: 415px) {
+  @media (max-width: 650px) {
+    padding: 0;
+    font-size: 3em;
+  }
+
+  @media (max-width: 500px) {
     font-size: 2em;
     hyphens: auto;
     padding: 0 0.5em;
+  }
+
+  @media (max-width: 320px) {
+    align-items: center;
+    text-align: center;
   }
 `
 
