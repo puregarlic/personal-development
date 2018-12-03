@@ -139,7 +139,7 @@ class Website extends Component {
                     Being skeptical of a commonly-accepted idea among the group provides an
                     opportunity for other, possibly trampled ideas to come to the surface,
                   </Highlight>{' '}
-                  contributing to the group's discussion and perspectives — and ensures that your
+                  contributing to the group's discussion and perspectives — also ensuring that your
                   team understands why they're doing what they're doing. So, I play devil's advocate
                   when I believe there are alternatives to our selected approach, or I believe there
                   are underrepresented ideas within the team.
