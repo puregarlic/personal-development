@@ -105,23 +105,44 @@ class Website extends Component {
               </SubSectionGroup>
             </ScrollTrigger>
           </Section>
-          <Section title="My Background">
+          <Section title="Teamwork Philosophy">
             <ScrollTrigger onEnter={() => this.reveal('three')}>
               <SubSectionGroup pose={three ? 'enter' : ''}>
-                <PosedSubSection title="Some other thing" initialPose="exit">
-                  European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
-                  tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
-                  killifish giant sea bass eulachon.
+                <PosedSubSection title="Know what makes your team tick" initialPose="exit">
+                  The best teams are those where the team members understand each others'
+                  backgrounds.{' '}
+                  <Highlight>
+                    Understanding your peers' stories and communicating your own creates a safe,
+                    productive team.
+                  </Highlight>{' '}
+                  Whether I'm in a group or working with team members one-on-one, I always put time
+                  into uncovering their values and backgrounds. This gives me the added bonus of
+                  being able to eliminate discontent among team members — if one team member is
+                  upset at another, often times I can put the attacked team member's perspective
+                  into terms that the upset team member can understand and empathize with.
                 </PosedSubSection>
-                <PosedSubSection title="Some other thing" initialPose="exit">
-                  European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
-                  tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
-                  killifish giant sea bass eulachon.
+                <PosedSubSection title="Give everybody a stake" initialPose="exit">
+                  You can't motivate someone to do something that won't benefit them in the end. As
+                  such, especially in a team,{' '}
+                  <Highlight>
+                    you need to make sure that every team member feels like they are contributing to
+                    the end goal of a project.
+                  </Highlight>{' '}
+                  I check in with each of my team members to ensure that they feel like they're
+                  adding to the project's value. If they don't feel that way, then our team is not
+                  reaching its maximum potential, so I either find work that they find is more
+                  valuable, or I help them find value in their work.
                 </PosedSubSection>
-                <PosedSubSection title="Some other thing" initialPose="exit">
-                  European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
-                  tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
-                  killifish giant sea bass eulachon.
+                <PosedSubSection title="Be a little skeptical" initialPose="exit">
+                  "Healthy skepticism" is truly a useful tool in a diverse team.{' '}
+                  <Highlight>
+                    Being skeptical of a commonly-accepted idea among the group provides an
+                    opportunity for other, possibly trampled ideas to come to the surface,
+                  </Highlight>{' '}
+                  contributing to the group's discussion and perspectives — and ensures that your
+                  team understands why they're doing what they're doing. So, I play devil's advocate
+                  when I believe there are alternatives to our selected approach, or I believe there
+                  are underrepresented ideas within the team.
                 </PosedSubSection>
               </SubSectionGroup>
             </ScrollTrigger>
