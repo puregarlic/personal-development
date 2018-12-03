@@ -99,7 +99,7 @@ class Website extends Component {
                 <PosedSubSection title="Public speaking" initialPose="exit">
                   After years of sharing my ideas with friends and family, I put the time in to
                   learn how to present them in a professional format. I've developed a skill for
-                  rephrasing ideas in an easier-to-understand form, and{' '}
+                  rephrasing ideas into language that a non-expert can undestand, and{' '}
                   <Highlight>I've grown comfortable presenting to an audience.</Highlight>
                 </PosedSubSection>
               </SubSectionGroup>
