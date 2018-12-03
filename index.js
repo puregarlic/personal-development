@@ -51,7 +51,7 @@ class Website extends Component {
           <Section title="My Background">
             <ScrollTrigger onEnter={() => this.reveal('one')}>
               <SubSectionGroup pose={one ? 'enter' : ''}>
-                <PosedSubSection title="Raised with Self-Awareness" initialPose="exit">
+                <PosedSubSection title="Raised with self-awareness" initialPose="exit">
                   Raised by a civil engineer and a librarian, I've been trained from an early age to
                   seek my own answers and constantly evaluate how I appear to others, how my actions
                   will affect my future, and how my actions might affect those around me.{' '}
@@ -60,16 +60,16 @@ class Website extends Component {
                     consciously aware of the reasoning behind it.
                   </Highlight>
                 </PosedSubSection>
-                <PosedSubSection title="Trained for Attention to Detail" initialPose="exit">
+                <PosedSubSection title="Trained for attention to detail" initialPose="exit">
                   The part of Ohio where I come from was academically rigorous, so I was pushed from
                   the beginning by my parents, my teachers, and my peers to perform high-quality
-                  work. When I moved to Oregon, I found out that the standards weren't as high, but
-                  I discovered{' '}
+                  work. When I moved to Oregon, I found out that the standards weren't as high, but{' '}
                   <Highlight>
-                    I can differentiate myself from others by always giving my best effort.
+                    I discovered I can differentiate myself from others by always giving my best
+                    effort.
                   </Highlight>
                 </PosedSubSection>
-                <PosedSubSection title='Former "Idea Guy"' initialPose="exit">
+                <PosedSubSection title='Former "idea guy"' initialPose="exit">
                   In high school, I was well known for coming up with bold, creative ideas for video
                   games and software. Early on, I swore that I would never learn to program, because
                   there would always be someone else who would be willing and capable of doing so
