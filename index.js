@@ -81,23 +81,26 @@ class Website extends Component {
               </SubSectionGroup>
             </ScrollTrigger>
           </Section>
-          <Section title="My Background">
+          <Section title="Team Skills">
             <ScrollTrigger onEnter={() => this.reveal('two')}>
               <SubSectionGroup pose={two ? 'enter' : ''}>
-                <PosedSubSection title="Some other thing" initialPose="exit">
-                  European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
-                  tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
-                  killifish giant sea bass eulachon.
+                <PosedSubSection title="Problem solving" initialPose="exit">
+                  I'm adept at taking an obstacle and breaking it down into smaller, solvable
+                  portions — a practice called computational thinking. Whether it's a scheduling
+                  issue, a conflict of interest, or a difficult class assignment, I will find a
+                  solution. <Highlight>There's no such thing as an impossible challenge.</Highlight>
                 </PosedSubSection>
-                <PosedSubSection title="Some other thing" initialPose="exit">
-                  European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
-                  tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
-                  killifish giant sea bass eulachon.
+                <PosedSubSection title="Technical expertise" initialPose="exit">
+                  Whether it's IT troubleshooting, programming, graphic design, or merely finding
+                  information, <Highlight>I possess the skills needed to execute</Highlight> using
+                  the technology available. And if what I possess isn't enough, I know how to
+                  leverage my network to find someone who can help.
                 </PosedSubSection>
-                <PosedSubSection title="Some other thing" initialPose="exit">
-                  European perch glowlight danio earthworm eel fire bar danio, "flabby whalefish
-                  tailor Pacific hake." Broadband dogfish sea devil longnose sucker wormfish, banded
-                  killifish giant sea bass eulachon.
+                <PosedSubSection title="Public speaking" initialPose="exit">
+                  After years of sharing my ideas with friends and family, I put the time in to
+                  learn how to present them in a professional format. I've developed a skill for
+                  rephrasing ideas in an easier-to-understand form, and{' '}
+                  <Highlight>I've grown comfortable presenting to an audience.</Highlight>
                 </PosedSubSection>
               </SubSectionGroup>
             </ScrollTrigger>
