@@ -42,7 +42,7 @@ export const SubHeading = styled.h2`
 
 export const Paragraph = styled.p`
   font-size: 1.5em;
-  font-family: Inter UI, sans-serif;
+  font-family: Spectral, serif;
 
   @media (max-width: 415px) {
     font-size: 1em;
@@ -51,5 +51,5 @@ export const Paragraph = styled.p`
 
 export const Highlight = styled.span`
   color: #8d0b93;
-  font-weight: 600;
+  font-weight: 700;
 `
